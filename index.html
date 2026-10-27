@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poornima Patel - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src=""></script>
 </head>
 
 <body>
@@ -45,7 +46,7 @@
             <div class="container">
                 <h2 class="section-title">About Me</h2>
                 <div class="about-profile">
-                    <img src="IMG_7074.PNG" alt="Poornima Patel">
+                    <img src="photo.jpg" alt="Poornima Patel">
                     <div class="about-profile-description">
                         <p>Hello! I'm a sophomore at Drexel University's College of Computing & Informatics majoring in Computer Science, with concentrations in Computing Security and Artificial Intelligence & Machine Learning, and a minor in Data Science. My work focuses on creating secure, scalable, and intuitive applications that blend technical precision with practical impact. I’m also interested in networking and cybersecurity, and how these areas contribute to building reliable and resilient systems.</p>
                     </div>
@@ -60,28 +61,36 @@
             <div class="skills-grid">
                 <div class="skills-category">
                     <h3 class="skills-title">Languages</h3>
-                        <p>HTML5, CSS3, JavaScript, Python, Java, Dart, MySQL, TypeScript, Racket</p>
+                        <p>HTML, CSS, JavaScript, Python, C, C++, Java, Dart, TypeScript, Racket</p>
                 </div>
                 <div class="skills-category">
                     <h3 class="skills-title">Environments</h3>
-                    <p>IntelliJ, VS Code, Sublime Text, Android Studio, Xcode, Node.js, Yarn</p>
+                    <p>IntelliJ, VS Code, Android Studio, Xcode, Node.js, Bash</p>
                 </div>
                 <div class="skills-category">
                     <h3 class="skills-title">Tools, Frameworks & Libraries</h3>
-                    <p>Flutter, React 18, Bootstrap</p>
+                    <p>React 18, React Native, Flutter, Bootstrap, Active Directory, FastAPI, Pandas, REST APIs, Claude/Anthropic API, Yarn, Microsoft 365, TeamDynamix (TDX)</p>
                     </div>
                 <div class="skills-category">
                     <h3 class="skills-title">Methodologies</h3>
-                    <p>Agile, Scrum, Test-Driven Development (TDD), Kanban</p>
+                    <p>Agile, Scrum, Object-Oriented Programming and Design (OOP), Test-Driven Development (TDD), Kanban</p>
                     </div>
                 <div class="skills-category">
                     <h3 class="skills-title">Version Control</h3>
-                    <p>Git (GitHub, GitLab),</p>
+                    <p>Git (GitHub, GitLab)</p>
                     </div>
+                <div class="skills-category">
+                    <h3 class="skills-title">Cloud & DevOps</h3>
+                    <p>Docker, Google Cloud Platform (Cloud Run), Vercel</p>
+                </div>
                 <div class="skills-category">
                     <h3 class="skills-title">Databases</h3>
                         <p>MySQL</p>
                     </div>
+                 <div class="skills-category">
+                    <h3 class="skills-title">Security & Compliance</h3>
+                    <p>PCI DSS, TPRM, Tenable, Shodan, Bitsight</p>
+                </div>
             </div>
         </div>
     </section>
@@ -93,7 +102,7 @@
             <div class="certifications-grid">
               <div class="certification-card">
                     <div class="cert-provider">arcX</div>
-                    <h3 class="cert-title"> Foundation Level Threat Intelligence Analyst Certification</h3>
+                    <h3 class="cert-title"> Foundation Level Threat Intelligence Analyst</h3>
                     <div class="cert-date">December 27, 2024</div>
                     <span class="cert-badge">Threat Intelligence</span>
                 </div>
@@ -109,44 +118,58 @@
                     <div class="cert-date">August 28, 2025</div>
                     <span class="cert-badge">Prompt Engineering</span>
                 </div>
+                 <div class="certification-card">
+                <div class="cert-provider">Drexel University</div>
+                <h3 class="cert-title">Bash & Command Line 101</h3>
+                <div class="cert-date">September 17, 2026</div>
+                <span class="cert-badge">Bash and Command Line</span>
+                </div>
+                 <div class="certification-card">
+                <div class="cert-provider">CISCO</div>
+                <h3 class="cert-title">Networking Basics</h3>
+                <div class="cert-date">October 26, 2026</div>
+                <span class="cert-badge">Networking Fundamentals</span>
+            </div>
+        </div>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
     <div class="container">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">Projects & Research Experience</h2>
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-info">
-                    <h3>Student Budget Tracker</h3>
+                    <h3>Student Budgeting App</h3>
                     <ul>
-                        <li>Cross-platform personal finance app tailored for Drexel students</li>
-                        <li>Developed as a collaborative venture during a freshman three-course sequence</li>
-                        <li>Features for tuition, dining, SEPTA, and local living expenses</li>
-                        <li>Supports expense logging and savings tracking to promote financial awareness</li>
+                        <li>Developed a cross-platform finance app using Flutter and Dart with an object-oriented design, tailored for Drexel students to manage tuition, dining, 
+and living expenses </li>
+                        <li>Collaborated in an Agile team of four during a three-course freshman sequence to iteratively design, prototype, and implement core budgeting features</li>
+                        <li>Designed intuitive UI with bar chart visualizations to provide clear insights into spending patterns </li>
                     </ul>
                 </div>
             </div>
               <div class="project-card">
                     <div class="project-info">
-                        <h3>Thryftly</h3>
+                        <h3>Consumer Complaint Classifier - LLM-Powered API </h3>
                         <ul>
-                            <li>Creating a React Native marketplace app that enables users to buy and sell personal items</li>
-                            <li>Developing optimized screens and navigation flows to ensure fast load times and a seamless user experience</li>
-                            <li>Developing core features such as category-based browsing, detailed item pages, and pull-to-refresh for intuitive exploration</li>
-                            <li>Developing an intuitive listing workflow with multi-photo uploads, progress indicators, and animated transitions to simplify item posting</li>
+                            <li>Built and deployed a live NLP API using Claude to classify consumer complaints into 5 financial categories, reaching ~80%
+accuracy on a test set</li>
+                            <li>Sourced and processed a 160K+ row dataset from Kaggle, engineering prompts and validating Claude's output against ground-truth
+labels</li>
+                            <li>Built a FastAPI REST endpoint for on-demand HTTP requests, containerized with Docker, and deployed to Google Cloud Run</li>
                         </ul>
+                          <a href="https://complaint-classifier-315192541584.us-central1.run.app/docs" class="connect-btn">Live Demo</a>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-info">
-                        <h3>CurrencyConvertor</h3>
+                        <h3>Language Models with Iterative Self-Attention (LISA) - VIP Research Assistant</h3>
                         <ul>
-                            <li>Developed a Flutter-based currency converter app enabling real-time USD–INR conversions with response times under 500 ms.</li>
-                            <li>Integrated a live REST API to provide accurate and continuously updated exchange rates</li>
-                            <li>Implemented features such as input validation, conversion history, and auto-refreshing data to improve usability and reliability.</li>
-                            <li>Designed a responsive Material Design interface ensuring consistent performance across Android and iOS devices</li>
+                            <li>Refactoring and modularizing a transformer architecture (iterative Hopfield-attention mechanism with eigenspectrum regularization) to improve code maintainability, readability, and reusability</li>
+                            <li>Packaging an existing PyTorch research codebase for public release on Hugging Face, enabling adoption by external researchers and engineers</li>
+                            <li>Making advanced attention-mechanism research accessible to the broader ML community through open-source tooling</li>
                         </ul>
                     </div>
                 </div>
@@ -154,35 +177,52 @@
     </div>
     </section>
 
-    <!-- <section id="contact" class="contact">
-        <div class="container"> -->
-            <!-- <h2 class="section-title">Connect With Me</h2>
-            <div class="contact-form-container">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="fullName">Full Name <span class="required">*</span></label>
-                        <input type="text" id="fullName" name="fullName" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message <span class="required">*</span></label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="submit-btn">Send</button>
-                </form>
+       <!-- Work Experience Section -->
+    <section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Jr. IT Security Analyst, Drexel University </h3>
+                    <ul>
+                        <li>Lead monthly vulnerability management by analyzing monthly Tenable scan results across departments, prioritizing findings by risk severity, and tracking remediation</li>
+                        <li>Lead Bug Bounty analysis using Tenable and Shodan to identify exposed attack surfaces</li>
+                        <li>Collaborated on Third-Party Risk Management
+(TPRM) efforts, evaluating third-party vendor security controls and document risk findings for stakeholder review using BitSight and TeamDynamix</li>
+                        <li>Contributed to the internal analysis of the the suspension of CMMC Phase II and its implications for university compliance posture on federally sponsored research contracts</li>
+                        <li>Lead resume screening and candidate shortlisting for the co-op analyst hiring pipeline</li>
+                        <li>Developed and delivered weekly cybersecurity threat briefings on recent attacks to the internal security team</li>
+                        <li>Collaborated directly with the CISO and security team on daily security operations </li>
+                    </ul>
+                </div>
             </div>
-             -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>The Triangle IT - Drexel University Student Newspaper</h3>
+                        <ul>
+                            <li>Supported a self-hosted IT stack (ticketing, SSO, monitoring, backups) across 14+ Docker containers on a Proxmox host; confirmed automatic recovery on reboot</li>
+                            <li>Diagnosed an Elasticsearch AVX2 compatibility issue, tracing it from VM to hypervisor to scope a config fix vs. hardware upgrade; 
+still troubleshooting resolution</li>
+                            <li>Troubleshot across hypervisor, VM, and container layers via SSH and Proxmox/Docker CLI</li>
+                            <li>Onboarded and offboarded staff in Active Directory, including account creation, password resets, and group permissions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Course Assistant</h3>
+                        <ul>
+                            <li>Mentor students in HTML, CSS, JavaScript, Linux terminal commands, Git/GitLab, and Tux through office hours and weekly labs</li>
+                            <li>Guide teams through web development, cryptography,  networking,  and cybersecurity CTF challenges</li>
+                            <li>Grade assignments using standardized rubrics and provide actionable feedback to improve student learning</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </section>
+
     <section id="contact" class="contact">
     <div class="container">
         <h2 class="section-title">Connect With Me</h2>
@@ -228,7 +268,7 @@
         //     submitBtn.disabled = true;
             
         //     setTimeout(() => {
-        //         alert('Thank you for your message! I\'ll get back to you soon.');
+        //         alert('Thank you for your message! I'll get back to you soon.');
         //         this.reset();
         //         submitBtn.textContent = originalText;
         //         submitBtn.disabled = false;
